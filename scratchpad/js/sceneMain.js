@@ -11,6 +11,8 @@ class SceneMain extends Phaser.Scene {
         //     frameHeight: 200
         // });
 
+        // this.load.audio('cat', ['audio/meow.mp3', 'audio/meow.ogg']);
+
     }
     create() {
 
@@ -43,6 +45,17 @@ class SceneMain extends Phaser.Scene {
         // this.face.setInteractive();
         // this.face.on('pointerdown', this.onDown, this);
         // this.face.on('pointerup', this.onUp, this);
+
+        // this.graphics = this.add.graphics();
+        // this.graphics.lineStyle(8, 0x0000ff);
+        // this.graphics.moveTo(100, 100);
+        // this.graphics.lineTo(100, 300);
+        // this.graphics.strokePath();
+        // this.graphics.strokeRect(100, 200, 50, 50);
+
+
+        // this.catSound = this.sound.add('cat');
+        // this.catSound.play();
 
         console.log("Ready!");
 
